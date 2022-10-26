@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-/* fonts */
-@import "./assets/css/fonts.css";
-
-/* reset */
-@import "./assets/css/reset.css";
-
-/* common */
-@import "./assets/css/common.css";
-
 /* header */
 @import "./assets/css/header.css";
 
