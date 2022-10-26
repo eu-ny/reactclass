@@ -12,9 +12,9 @@ import Footer from "./components/Layout/Footer";
 function App() {
   return (
     <>
-		<Header font="nexon"/>
+		<Header fonts="nexon"/>
         <Main>
-			<Slider font="nexon" />
+			<Slider fonts="nexon"/>
 			<Image attr={["section", "nexon", "container"]} />
 			<ImageText attr={["nexon", "section", "scroll" ,"container"]} />
 			<Card attr={["section", "nexon", "container"]} />

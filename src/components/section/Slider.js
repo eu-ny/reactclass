@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 function Slider(props) {
 	return (
-		<section id="sliderType" className={`slider__wrap ${props.font}`}>
+		<section id="sliderType" className={`slider__wrap ${props.fonts}`}>
 			<div className="slider__inner">
 			<Swiper 
 				autoplay={{
