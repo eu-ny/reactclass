@@ -1,11 +1,11 @@
 import React from 'react';
 
-const imageTitle = {
+const imageTextTitle = {
     hadding: "애니멀 유치원",
     desc: "🐶 당신의 반려 동물에 맞는 반을 골라주세요!🐱"
 };
 
-const imageInfo = [
+const imageTextInfo = [
     { 
         title: "멍멍 유치원",
         desc: "강아지는 매우 귀엽습니다. 활동적인 모습이 귀엽습니다. 강아지는 기뻐할 때도 귀엽고 시무룩할 때도 귀엽습니다.",
@@ -43,10 +43,10 @@ function Image(props) {
     <section id="imageType" className={`image__wrap scroll ${props.attr[0]} ${props.attr[1]}`}>
         {/* <h2>애니멀 유치원</h2>
         <p>🐶 당신의 반려 동물에 맞는 반을 골라주세요!🐱</p> */}
-        <h2>{imageTitle.hadding}</h2>
-        <p>{imageTitle.desc}</p>
+        <h2>{imageTextTitle.hadding}</h2>
+        <p>{imageTextTitle.desc}</p>
         <div class={`image__inner ${props.attr[2]}`}>
-            {imageInfo.map((info, index) => (
+            {imageTextInfo.map((info, index) => (
                 // map은 키값을 함께 불러와야 경고가 뜨지 않는다. 만약 중복되는 값이 있다고 하면 이렇게 키값을 함께하여 컨텐츠가 인덱스 순으로로 나오도록 한다. / 데이터 값 넘기기
                 // 밑은 컴포넌트.
                 <ImageText 
